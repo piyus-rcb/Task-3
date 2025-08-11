@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Greetings!", "How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later"],
+      "responses": ["Goodbye!", "See you soon!", "Have a nice day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Glad I could help.", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I am a chatbot created to help you.", "You can call me Chatbot."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "Help me please"],
+      "responses": ["Sure, I'm here to help!", "Tell me what you need help with."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you available?", "Timing?"],
+      "responses": ["I'm available 24/7!", "You can chat with me anytime."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it raining?", "Do I need an umbrella?"],
+      "responses": ["I can't check real-time weather, but I suggest looking out the window!"]
+    }
+  ]
+}
